@@ -1,0 +1,5 @@
+input()
+list1=input().split()
+a=all([int(i)>=0 for i in list1])
+b= any([j==j[::-1] for j in list1])
+print(a,b,a and b)
